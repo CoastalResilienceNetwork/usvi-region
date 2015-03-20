@@ -1,8 +1,4 @@
 {
   "plugins": [
-    {
-      "repo": "flood_slr",
-      "name": "flood_slr"
-    }
   ]
 }
