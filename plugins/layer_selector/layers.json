@@ -1,11 +1,11 @@
 [
     {
         "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/US_Virgin_Islands",
+            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services",
 			"folderTitle": "US Virgin Islands",
             "folders": [
 				{
-					"name": "",
+					"name": "US_Virgin_Islands",
                     "services": [
 						{ "name": "USVI", "type":"dynamic", "displayName":"Sea Level Rise Vulnerability", "showLayers": [
                                 {"id":1, "parentLayerId":-1 },
