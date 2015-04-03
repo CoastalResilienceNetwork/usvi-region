@@ -1,0 +1,35 @@
+{
+    "name": "Flood and Sea Level Rise",
+	"pluginHeight": 350,
+	"hideDisableds": false,
+	"infoGraphic": "slr_flooding_c.jpg",
+	"regions": [
+		{
+			"name": "USVI",
+            "extent": {
+                "xmin": -7240439.425899999,
+                "ymin": 1999417.7796999998,
+                "xmax": -7187367.088300001,
+                "ymax": 2084639.2632,
+                "spatialReference": {
+                    "wkid": 102100,
+                    "latestWkid": 3857
+                }
+            },
+			"tabs" : [
+				{
+					"name": "NA",
+					"controls": [
+						{"name":"Sea Level Rise", "group": "main", "values":[{"name":"None", "value":"none"},{"name":"1 m","value":"1m", "selected": true},{"name":"2 m", "value":"2m"}], "type": "slider"}
+					], 
+					"combos": {
+						"1m": [{"type":"dynamic","show":[1]}],
+						"2m": [{"type":"dynamic","show":[2]}]
+					},
+					"mainURL": "http://services.coastalresilience.org:6080/arcgis/rest/services/US_Virgin_Islands/USVI/MapServer"
+				
+				}			
+			]
+		}	
+	]
+}
