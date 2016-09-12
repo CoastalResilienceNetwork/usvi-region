@@ -1,0 +1,17 @@
+[
+    {
+        "displayName": "US Virgin Islands",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services//US_Virgin_Islands/",
+            "name": "USVI"
+        },
+        "includeLayers": [
+			{
+				"name" : "Sea Level Rise Vulnerability",
+				"includeAllLayers" : true
+			}
+		]
+	}
+]
