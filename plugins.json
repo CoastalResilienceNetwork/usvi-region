@@ -1,9 +1,5 @@
 {
   "plugins": [
-        {
-            "repo": "multiSelect",
-            "name": "flood_slr"
-        },
 		{
 			"repo": "regional-planning",
 			"name": "regional-planning"
