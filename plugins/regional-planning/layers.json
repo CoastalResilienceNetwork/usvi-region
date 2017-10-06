@@ -1,10 +1,29 @@
 [
     {
-        "displayName": "US Virgin Islands",
+        "displayName": "Ecosystem Services",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://services.coastalresilience.org/arcgis/rest/services//US_Virgin_Islands/",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/US_Virgin_Islands/",
+            "name": "Ecosystem_Services"
+        },
+        "includeLayers": [
+			{
+				"name" : "Coastal Vulnerability",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Coastal Protection",
+				"includeAllLayers" : true
+			}
+		]
+	},
+	{
+        "displayName": "Flood and Sea Level Rise",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services//US_Virgin_Islands/",
             "name": "USVI"
         },
         "includeLayers": [
