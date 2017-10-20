@@ -61,7 +61,7 @@
             "plugins": [
                 {
                     "title": "<img src='img/regional_planning.png' hspace=10>Regional Planning",
-                    "description": "Explore regional datasets acroos the islands.",
+                    "description": "Explore regional datasets across the islands.",
                     "pluginName": "regional-planning"
                 }
             ],
