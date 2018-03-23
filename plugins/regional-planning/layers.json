@@ -5,7 +5,7 @@
             "type": "ags",
             "layerType": "dynamic",
             "url": "http://services.coastalresilience.org/arcgis/rest/services/US_Virgin_Islands/",
-            "name": "Ecosystem_Services"
+            "name": "USVI"
         },
         "includeLayers": [
 			{
@@ -14,6 +14,14 @@
 			},
 			{
 				"name" : "Coastal Protection",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Recreation and Tourism",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Habitats",
 				"includeAllLayers" : true
 			}
 		]
