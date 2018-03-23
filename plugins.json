@@ -1,15 +1,8 @@
 {
   "plugins": [
-<<<<<<< HEAD
         {
             "repo": "regional-planning",
             "name": "regional-planning"
         }
-=======
-		{
-			"repo": "regional-planning",
-			"name": "regional-planning"
-		}
->>>>>>> development
   ]
 }
