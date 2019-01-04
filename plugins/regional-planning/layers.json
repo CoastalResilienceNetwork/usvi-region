@@ -4,7 +4,7 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/US_Virgin_Islands/",
+            "url": "https://services2.coastalresilience.org/arcgis/rest/services/US_Virgin_Islands/",
             "name": "USVI"
         },
         "includeLayers": [
@@ -31,7 +31,7 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services//US_Virgin_Islands/",
+            "url": "https://services2.coastalresilience.org/arcgis/rest/services//US_Virgin_Islands/",
             "name": "USVI"
         },
         "includeLayers": [
