@@ -5,16 +5,8 @@
             "type": "ags",
             "layerType": "feature-layer",
             "url": "https://services.arcgis.com/F7DSX1DSNSiWmOqh/ArcGIS/rest/services/USVI_WFL1",
-            "name": ""
-        },
-        "includeLayers": [
-			{
-				"name" : "",
-				"includeAllLayers" : true
-			},
-			{
-				"includeAllLayers" : true
-			}
-		]
+            "name": "",
+            "includeAllLayers" : true
+        }
 	}
 ]
