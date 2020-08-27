@@ -9,7 +9,7 @@
         },
         "includeLayers": [
 			{
-				"name" : ""
+				"includeAllLayers" : true
 			}
 		]
 	}
